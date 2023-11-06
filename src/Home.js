@@ -163,7 +163,7 @@ function App2() {
         setRowToClear(prevRow => prevRow + 1);
 
         if (rowToClear < grid.length) {
-          setTimeout(clearRow, 100);
+          setTimeout(clearRow, 3000);
         }
       };
 
