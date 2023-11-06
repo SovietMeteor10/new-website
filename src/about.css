@@ -1,0 +1,15 @@
+.about-text {
+    font-size: 16px;
+}
+
+.text-container {
+    border: 3px;
+    border-color: white;
+}
+
+/*
+.about-text:hover {
+    font-size: 16px;
+    color: red;
+}
+*/

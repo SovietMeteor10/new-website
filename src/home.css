@@ -1,0 +1,75 @@
+@font-face {
+  font-family: STM_Medium;
+  src: url(/fonts/SometypeMono-Medium.ttf);
+}
+
+body {
+  background-color: rgb(37, 36, 36);
+  color: rgb(228, 225, 225);
+  font-family: STM_Medium;
+  font-size: 20px;
+  margin-left:50px;
+  margin-right:50px;
+  margin-top:70px;
+  margin-bottom:70px;
+}
+
+.grid-element {
+  width: 5px;
+  height: 5px;
+  padding: 2.5px; /* Add padding to provide spacing inside the element */
+  margin: 2.5px; /* Adjust margin as needed for spacing between elements */
+  transition: color 1.2s; 
+  transition-timing-function: linear;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Use 'gap' for both row and column spacing */
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.grid-row {
+  display: flex;
+}
+
+.page-borders {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.welcome-text {
+  cursor: pointer;
+  color: red;
+}
+
+.grid-element:hover {
+  animation: flicker 3s infinite, randomChange 0.4s; /* Combining flicker and randomChange animations */
+  color: red; /* Red text on hover */
+}
+
+@keyframes flicker {
+  0% {
+    content: attr(data-original); /* Display original text */
+  }
+  50% {
+    content: "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"; /* Random characters */
+  }
+  100% {
+    content: attr(data-original); /* Back to original text */
+  }
+}
+
+@keyframes randomChange {
+  0% {
+    content: attr(data-original); /* Display original text */
+  }
+  100% {
+    content: attr(data-original-random); /* Display random character */
+  }
+}
+

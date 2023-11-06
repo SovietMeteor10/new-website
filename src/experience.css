@@ -1,0 +1,52 @@
+@font-face {
+    font-family: STM_ITB;
+    src: url(/fonts/SometypeMono-SemiBold.ttf);
+  }
+
+.about-text {
+    font-size: 16px;
+}
+
+.text-container {
+    border: 3px;
+    border-color: rgb(228, 225, 225);
+    border-width: 5px;
+}
+
+.collapsible {
+    width: 85%;
+    padding: 25px 0;
+    margin-bottom: 10px;
+    color: rgb(228, 225, 225);
+    background-color: rgb(37, 36, 36);
+    border: none;
+    font-family: STM_ITB;
+    font-size: 18px;
+    line-height: 25px; /* Adjust this value to match your button's height */
+    text-align: center;
+  }
+
+.collapsible:hover {
+    background-color: rgb(11, 11, 11);
+    transition: 2s;
+    color: red;
+}
+
+.container {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.text-button {
+    text-align: center;
+    border-left:none;
+    border-right:none;
+    border-top: none;
+    border-bottom: none;
+    border-style: dashed;
+    border-color: white;
+    width: 80%;
+    display: inline-block; 
+    font-size: 16px;
+    padding:5px;
+}

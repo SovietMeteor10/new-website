@@ -1,0 +1,53 @@
+.about-text {
+    font-size: 16px;
+}
+
+.text-container {
+    border: 3px;
+    border-color: white;
+    border-width: 5px;
+}
+
+.container {
+    text-align: center;
+}
+
+.toplevel {
+    text-align: center;
+    }
+    
+.title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}  
+
+.box {
+    width: 80%;
+    text-align: center; /* Center the text horizontally */
+    margin: 0 auto; /* Center the element itself horizontally */
+    padding: 50px 0; /* Adjust the top and bottom padding to center the text vertically */
+  }
+  
+/* In your contact.css file */
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(11, 11, 11);
+    color: rgb(228, 225, 225);
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s;
+    margin:10px;
+    
+
+  }
+  
+  .contact-button:hover {
+    color: red;
+    transition: 1.2s;
+  }
+  
