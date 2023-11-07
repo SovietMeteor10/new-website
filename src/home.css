@@ -29,6 +29,7 @@ body {
   gap: 10px; /* Use 'gap' for both row and column spacing */
   margin: 0 auto;
   max-width: 100%;
+  justify-content:center;
 }
 
 .grid-row {
