@@ -7,12 +7,12 @@ function App2() {
   const [grid, setGrid] = useState([]);
   const [welcomeClicked, setWelcomeClicked] = useState(false);
   const [wordClicked, setWordClicked] = useState(null);
-  const elementWidth = 5;
-  const elementSpacing = 5;
-  const leftMargin = 120;
-  const rightMargin = 0;
-  const topMargin = 70;
-  const bottomMargin = 300;
+  const elementWidth = 8;
+  const elementSpacing = 8;
+  const leftMargin = 50;
+  const rightMargin = 50;
+  const topMargin = 100;
+  const bottomMargin = 100;
   const [rowToClear, setRowToClear] = useState(-1); // Define rowToClear and setRowToClear
 
   useEffect(() => {
@@ -108,7 +108,7 @@ function App2() {
     isClicking = true;
   
     // You can also use setTimeout to reset isClicking after a certain delay, just like before.
-    setTimeout(resetClickStatus, 1000); // You can adjust the delay time as needed.
+    setTimeout(resetClickStatus, 3000); // You can adjust the delay time as needed.
   
     const currentGrid = [...grid];
     if (currentGrid[rowIndex][columnIndex].props && currentGrid[rowIndex][columnIndex].props.className.includes('welcome-text ->welcome<-')) {
@@ -163,7 +163,7 @@ function App2() {
         setRowToClear(prevRow => prevRow + 1);
 
         if (rowToClear < grid.length) {
-          setTimeout(clearRow, 100);
+          setTimeout(clearRow, 1000);
         }
       };
 
