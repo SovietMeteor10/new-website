@@ -8,26 +8,23 @@ body {
   color: rgb(228, 225, 225);
   font-family: STM_Medium;
   font-size: 20px;
-  margin-left:50px;
-  margin-right:50px;
-  margin-top:70px;
-  margin-bottom:70px;
 }
 
 .grid-element {
-  width: 5px;
-  height: 5px;
+  width: 8px;
+  height: 8px;
   padding: 2.5px; /* Add padding to provide spacing inside the element */
   margin: 2.5px; /* Adjust margin as needed for spacing between elements */
   transition: color 1.2s; 
   transition-timing-function: linear;
+  font-size: 24px;
 }
 
 .grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px; /* Use 'gap' for both row and column spacing */
-  margin: 0 auto;
+  gap: 5px; /* Use 'gap' for both row and column spacing */
+  margin: 0;
   max-width: 100%;
   justify-content:center;
 }
@@ -37,10 +34,10 @@ body {
 }
 
 .page-borders {
-  margin-top: 70px;
-  margin-bottom: 70px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .welcome-text {

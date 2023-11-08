@@ -7,12 +7,12 @@ function App2() {
   const [grid, setGrid] = useState([]);
   const [welcomeClicked, setWelcomeClicked] = useState(false);
   const [wordClicked, setWordClicked] = useState(null);
-  const elementWidth = 8;
-  const elementSpacing = 8;
+  const elementWidth = 9;
+  const elementSpacing = 5;
   const leftMargin = 50;
   const rightMargin = 50;
   const topMargin = 100;
-  const bottomMargin = 100;
+  const bottomMargin = 180;
   const [rowToClear, setRowToClear] = useState(-1); // Define rowToClear and setRowToClear
 
   useEffect(() => {
