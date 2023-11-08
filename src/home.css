@@ -12,12 +12,12 @@ body {
 
 .grid-element {
   width: 8px;
-  height: 8px;
+  height: 10px;
   padding: 2.5px; /* Add padding to provide spacing inside the element */
   margin: 2.5px; /* Adjust margin as needed for spacing between elements */
   transition: color 1.2s; 
   transition-timing-function: linear;
-  font-size: 24px;
+  font-size: 28px;
 }
 
 .grid {

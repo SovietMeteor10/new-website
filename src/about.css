@@ -5,6 +5,12 @@
 .text-container {
     border: 3px;
     border-color: white;
+    width:80%
+}
+
+.center-container{
+    display:flex;
+    justify-content: center;
 }
 
 /*
